@@ -1,0 +1,150 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16712204200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be in the login page",
+            "match": {
+              "location": "Tc1_Login.userShouldBeInTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-03T12:11:14.803Z",
+        "line": 6,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "login-functionality-for-landmark-website;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 481458700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should enter valid email and password",
+            "match": {
+              "location": "Tc1_Login.userShouldEnterValidEmailAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95113500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should click in the login button",
+            "match": {
+              "location": "Tc1_Login.userShouldClickInTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1288866900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "users should be redirected to the dashboard page",
+            "match": {
+              "location": "Tc1_Login.usersShouldBeRedirectedToTheDashboardPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11628530600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be in the login page",
+            "match": {
+              "location": "Tc1_Login.userShouldBeInTheLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-03T12:11:33.407Z",
+        "line": 11,
+        "name": "Failed login with incorrect password",
+        "description": "",
+        "id": "login-functionality-for-landmark-website;failed-login-with-incorrect-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 438473500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should enter valid email and an invalid password",
+            "match": {
+              "location": "Tc1_Login.userShouldEnterValidEmailAndAnInvalidPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109071900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click on the login button",
+            "match": {
+              "location": "Tc1_Login.userShouldClickOnTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.ArithmeticException: / by zero\r\n\tat com.stepdefinition.Tc1_Login.userShouldSeeAnErrorMessage(Tc1_Login.java:79)\r\n\tat ✽.user should see an error message(file:src/test/resources/Features/Login.feature:14)\r\n",
+              "duration": 1200800,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user should see an error message",
+            "match": {
+              "location": "Tc1_Login.userShouldSeeAnErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality for Landmark website",
+    "description": "",
+    "id": "login-functionality-for-landmark-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
